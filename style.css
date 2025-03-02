@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+#theme-toggle {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#theme-toggle:hover {
+    background: #0056b3;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+body.dark-mode header {
+    background: #222;
+}
+
+body.dark-mode section {
+    background: #444;
+    color: #f4f4f4;
+}
+
+body.dark-mode h2 {
+    color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+}
+
+body.dark-mode a {
+    color: #00a8ff;
+}
+
+body.dark-mode footer {
+    background: #222;
+}
